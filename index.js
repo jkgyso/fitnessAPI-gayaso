@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require("cors");
 
 const app = express();
 
@@ -7,6 +8,7 @@ const port = 4000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 mongoose.connect('mongodb+srv://admin:admin1234@gysodb.nijqxz1.mongodb.net/Fitness-App?retryWrites=true&w=majority&appName=gysoDB');
 
