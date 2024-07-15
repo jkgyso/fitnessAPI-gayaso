@@ -39,9 +39,9 @@ Objective: ExpressJS API - Fitness Tracker
 	Inventory Routes:
 	GET /workouts/getMyWorkouts - Retrieve a all workouts.
 	POST /workouts/addWorkout - Add a new workout.
-	PUT /workouts/updateWorkout/:id - Update an existing workout by its id.
+	PATCH /workouts/updateWorkout/:id - Update an existing workout by its id.
 	DELETE /workouts/deleteWorkout/:id - Delete a workout item by its ID.
-	PUT /workouts/completeWorkoutStatus/:id - Update the existing workout status by its id.
+	PATCH /workouts/completeWorkoutStatus/:id - Update the existing workout status by its id.
 
 	Controllers:
 
